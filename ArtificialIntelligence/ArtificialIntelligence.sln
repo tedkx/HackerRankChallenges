@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bot Building", "Bot Building", "{C791689B-7BA9-436C-9719-A20991552C26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotSavesPrincess", "BotSavesPrincess\BotSavesPrincess.csproj", "{064FD6E7-72AB-47CA-B31C-65403D0F102A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotSavesPrincess2", "BotSavesPrincess2\BotSavesPrincess2.csproj", "{C69E2F31-A646-4325-956E-531E4723D507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotClean", "BotClean\BotClean.csproj", "{77134B2E-A04D-44D3-8702-F3C4737645F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{064FD6E7-72AB-47CA-B31C-65403D0F102A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064FD6E7-72AB-47CA-B31C-65403D0F102A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064FD6E7-72AB-47CA-B31C-65403D0F102A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064FD6E7-72AB-47CA-B31C-65403D0F102A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C69E2F31-A646-4325-956E-531E4723D507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69E2F31-A646-4325-956E-531E4723D507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69E2F31-A646-4325-956E-531E4723D507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69E2F31-A646-4325-956E-531E4723D507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77134B2E-A04D-44D3-8702-F3C4737645F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77134B2E-A04D-44D3-8702-F3C4737645F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77134B2E-A04D-44D3-8702-F3C4737645F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77134B2E-A04D-44D3-8702-F3C4737645F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{064FD6E7-72AB-47CA-B31C-65403D0F102A} = {C791689B-7BA9-436C-9719-A20991552C26}
+		{C69E2F31-A646-4325-956E-531E4723D507} = {C791689B-7BA9-436C-9719-A20991552C26}
+		{77134B2E-A04D-44D3-8702-F3C4737645F6} = {C791689B-7BA9-436C-9719-A20991552C26}
+	EndGlobalSection
+EndGlobal
