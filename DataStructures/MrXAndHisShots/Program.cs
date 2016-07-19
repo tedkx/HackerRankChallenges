@@ -75,7 +75,7 @@ class Solution
 
     enum PointType
     {
-        None = 0;
+        None = 0,
         Shot = 1,
         Player = 2,
         Overlapping = 4,
