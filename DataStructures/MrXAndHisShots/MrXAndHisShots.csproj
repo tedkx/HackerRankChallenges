@@ -48,6 +48,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="testcase1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="testcase0.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="mytestcase.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
