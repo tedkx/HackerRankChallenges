@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CandlesCounting")]
+[assembly: AssemblyTitle("DirectConnections")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CandlesCounting")]
+[assembly: AssemblyProduct("DirectConnections")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1afca44a-8c33-479d-9f74-01b252d4aa50")]
+[assembly: Guid("b75c7814-f832-4866-b324-466256c55fac")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -49,7 +49,7 @@ class Solution
 
             for (var x = startIdx + 1; x < candlesCount; x++)
             {
-                
+
                 tree.TryInsert(candles[x]);
             }
 
@@ -59,11 +59,11 @@ class Solution
         //1 2 3 4 5 6
 
         //56 4 [5,6]
-        
+
         //    64 5 [6]
 
         var allColors = Enumerable.Range(1, colorsCount).ToArray();
-        for(var i = 0; i < candlesCount - (colorsCount - 1); i++)
+        for (var i = 0; i < candlesCount - (colorsCount - 1); i++)
         {
             //var idx = i;
             Console.WriteLine("Checking candle {0} of {1}", i + 1, candlesCount);
@@ -78,7 +78,8 @@ class Solution
         Console.ReadKey();
     }
 
-    static int GetCount(Candle[] candles, int index, int[] permittedColors) {
+    static int GetCount(Candle[] candles, int index, int[] permittedColors)
+    {
         if (index >= candles.Length)
             return 0;
         var sum = 0;
@@ -89,9 +90,10 @@ class Solution
         List<System.Threading.Tasks.Task> tasks = new List<System.Threading.Tasks.Task>();
         for (var i = index + 1; i < candles.Length; i++)
         {
-            
-            if(newPermittedColors.Contains(candles[i].Color))
-                tasks.Add(System.Threading.Tasks.Task.Run(() => {
+
+            if (newPermittedColors.Contains(candles[i].Color))
+                tasks.Add(System.Threading.Tasks.Task.Run(() =>
+                {
                     sum += GetCount(candles, i, newPermittedColors);
                 }));
             //Console.WriteLine("Finished with index {0}", index);

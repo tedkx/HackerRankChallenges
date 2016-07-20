@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{139987A0-DA14-4C37-A566-353B3123E31E}</ProjectGuid>
+    <ProjectGuid>{D2A8E858-03F8-4730-ADCC-26FFA4A7FB70}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CandlesCounting</RootNamespace>
@@ -49,10 +49,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="TestCase4.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="TestCase.txt" />
+    <EmbeddedResource Include="TestCase4.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
