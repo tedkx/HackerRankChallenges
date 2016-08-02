@@ -12,22 +12,22 @@ class Solution
 {
     static void Main(string[] args)
     {
-        //int[][] arr = new int[6][];
-        //for (int arr_i = 0; arr_i < 6; arr_i++)
-        //{
-        //    string[] arr_temp = Console.ReadLine().Split(' ');
-        //    arr[arr_i] = Array.ConvertAll(arr_temp, Int32.Parse);
-        //}
-
-        int[][] arr = new int[6][]
+        int[][] arr = new int[6][];
+        for (int arr_i = 0; arr_i < 6; arr_i++)
         {
-            new int[] { 1, 1, 1, 0, 0, 0 },
-            new int[] { 0, 1, 0, 0, 0, 0 },
-            new int[] { 1, 1, 1, 0, 0, 0 },
-            new int[] { 0, 9, 2, -4, -4, 0 },
-            new int[] { 0, 0, 0, -2, 0, 0 },
-            new int[] { 0, 0, -1, -2, -4, 0 },
-        };
+            string[] arr_temp = Console.ReadLine().Split(' ');
+            arr[arr_i] = Array.ConvertAll(arr_temp, Int32.Parse);
+        }
+
+        //int[][] arr = new int[6][]
+        //{
+        //    new int[] { 1, 1, 1, 0, 0, 0 },
+        //    new int[] { 0, 1, 0, 0, 0, 0 },
+        //    new int[] { 1, 1, 1, 0, 0, 0 },
+        //    new int[] { 0, 9, 2, -4, -4, 0 },
+        //    new int[] { 0, 0, 0, -2, 0, 0 },
+        //    new int[] { 0, 0, -1, -2, -4, 0 },
+        //};
 
         var maxHourglassSum = int.MinValue;
         for(var y = 0; y < arr.Length - 2;y++)

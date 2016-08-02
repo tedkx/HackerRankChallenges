@@ -12,49 +12,25 @@ class Program
 {
     static void Main(string[] args)
     {
-        string[] lines = new string[]
-            {
-                "11",
-                "2 3",
-                "4 -1",
-                "5 -1",
-                "6 -1",
-                "7 8",
-                "-1 9",
-                "-1 -1",
-                "10 11",
-                "-1 -1",
-                "-1 -1",
-                "-1 -1",
-            },
-            swaps = new string[]
-            {
-                "2",
-                "2",
-                "4",
-            };
-
-        int NumOfNodes = int.Parse(lines[0]);//int.Parse(Console.ReadLine());
+        int NumOfNodes = int.Parse(Console.ReadLine());
         Node tree = NumOfNodes == 0 ? null : new Node(1);
         int currentDepth = 2;
         for (var i = 0; i < NumOfNodes; i++)
         {
-            var line = Array.ConvertAll(lines[i + 1].Split(' '), int.Parse); //Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse)
+            var line = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
             while (!AppendToTree(tree, currentDepth, 1, line[0], line[1]))
                 currentDepth++;
         }
 
-        int NumOfSwaps = int.Parse(swaps[0]);// int.Parse(Console.ReadLine());
+        int NumOfSwaps = int.Parse(Console.ReadLine());
         for (var i = 0; i < NumOfSwaps; i++)
         {
-            int initialDepth = int.Parse(swaps[i + 1]),// int.Parse(Console.ReadLine()),
+            int initialDepth = int.Parse(Console.ReadLine()),
                 depth = initialDepth;
             while (Swap(tree, depth, 1))
-            {
                 depth += initialDepth;
-                InorderPrint(tree);
-            }
-            
+            InorderPrint(tree);
+            Console.WriteLine();
         }
     }
 
@@ -104,7 +80,7 @@ class Program
             if (node.Left != null)
                 result = Swap(node.Left, desiredDepth, currentDepth + 1);
             if (node.Right != null)
-                result = result || Swap(node.Right, desiredDepth, currentDepth + 1);
+                result = Swap(node.Right, desiredDepth, currentDepth + 1) || result;
         }
         return result;
     }
