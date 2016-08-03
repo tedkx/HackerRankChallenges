@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysDS", "ArraysDS\ArraysDS.csproj", "{07306C2C-3D72-418A-ABB3-1DB6430E0DA0}"
 EndProject
@@ -74,6 +74,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinarySearchTreeLowestCommonAncestor", "BinarySearchTreeLowestCommonAncestor\BinarySearchTreeLowestCommonAncestor.vcxproj", "{097A013D-2CC4-4D1B-A1DB-000DD5DB7B06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapNodesAlgo", "SwapNodesAlgo\SwapNodesAlgo.csproj", "{1541FC66-7131-4137-ACE4-F73AD9A36467}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IsThisABinarySearchTree", "IsThisABinarySearchTree\IsThisABinarySearchTree.vcxproj", "{3D897CCB-E447-419F-8C98-E7621A81B47E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SquareTenTree", "SquareTenTree\SquareTenTree.vcxproj", "{D1A852E1-0CE9-469F-A6C4-9FD616E086B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -405,6 +409,26 @@ Global
 		{1541FC66-7131-4137-ACE4-F73AD9A36467}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{1541FC66-7131-4137-ACE4-F73AD9A36467}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{1541FC66-7131-4137-ACE4-F73AD9A36467}.Release|Win32.ActiveCfg = Release|Any CPU
+		{3D897CCB-E447-419F-8C98-E7621A81B47E}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{3D897CCB-E447-419F-8C98-E7621A81B47E}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{3D897CCB-E447-419F-8C98-E7621A81B47E}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{3D897CCB-E447-419F-8C98-E7621A81B47E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D897CCB-E447-419F-8C98-E7621A81B47E}.Debug|Win32.Build.0 = Debug|Win32
+		{3D897CCB-E447-419F-8C98-E7621A81B47E}.Release|Any CPU.ActiveCfg = Release|Win32
+		{3D897CCB-E447-419F-8C98-E7621A81B47E}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{3D897CCB-E447-419F-8C98-E7621A81B47E}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{3D897CCB-E447-419F-8C98-E7621A81B47E}.Release|Win32.ActiveCfg = Release|Win32
+		{3D897CCB-E447-419F-8C98-E7621A81B47E}.Release|Win32.Build.0 = Release|Win32
+		{D1A852E1-0CE9-469F-A6C4-9FD616E086B2}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{D1A852E1-0CE9-469F-A6C4-9FD616E086B2}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{D1A852E1-0CE9-469F-A6C4-9FD616E086B2}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{D1A852E1-0CE9-469F-A6C4-9FD616E086B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D1A852E1-0CE9-469F-A6C4-9FD616E086B2}.Debug|Win32.Build.0 = Debug|Win32
+		{D1A852E1-0CE9-469F-A6C4-9FD616E086B2}.Release|Any CPU.ActiveCfg = Release|Win32
+		{D1A852E1-0CE9-469F-A6C4-9FD616E086B2}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{D1A852E1-0CE9-469F-A6C4-9FD616E086B2}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{D1A852E1-0CE9-469F-A6C4-9FD616E086B2}.Release|Win32.ActiveCfg = Release|Win32
+		{D1A852E1-0CE9-469F-A6C4-9FD616E086B2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -442,5 +466,7 @@ Global
 		{E0F8D332-E4D6-4DE8-87F0-F3DB4EB65EBB} = {4F3B5164-EB5D-4A87-A512-5A81088B50BE}
 		{097A013D-2CC4-4D1B-A1DB-000DD5DB7B06} = {4F3B5164-EB5D-4A87-A512-5A81088B50BE}
 		{1541FC66-7131-4137-ACE4-F73AD9A36467} = {4F3B5164-EB5D-4A87-A512-5A81088B50BE}
+		{3D897CCB-E447-419F-8C98-E7621A81B47E} = {4F3B5164-EB5D-4A87-A512-5A81088B50BE}
+		{D1A852E1-0CE9-469F-A6C4-9FD616E086B2} = {4F3B5164-EB5D-4A87-A512-5A81088B50BE}
 	EndGlobalSection
 EndGlobal
